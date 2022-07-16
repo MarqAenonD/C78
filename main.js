@@ -26,7 +26,7 @@ with 40 as radius, 0 startAngle and 2 * Math.PI endAngle.
 ctx.beginPath();
 ctx.strokeStyle = "blue";
 ctx.lineWidth = 5;
-ctx.arc(200, 250, 40, 0, 2*Math.PI);
+ctx.arc(150, 143, 40, 0, 2*Math.PI);
 ctx.stroke();
 
 // Similarly, create a black circle with position 350 and 210
@@ -42,7 +42,7 @@ ctx.stroke();
 ctx.beginPath();
 ctx.strokeStyle = "red";
 ctx.lineWidth = 5;
-ctx.arc(250, 210, 40, 0, 2*Math.PI);
+ctx.arc(210, 40, 40, 0, 2*Math.PI);
 ctx.stroke();
 
 // Similarly, create an orange circle with position 300 and 250
